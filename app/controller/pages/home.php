@@ -3,6 +3,7 @@
 namespace App\controller\pages;
 
 use \App\utils\view;
+use \App\models\entity\Infos;
 
 class home extends app{
 
@@ -10,8 +11,11 @@ class home extends app{
     public static function getHome(){
         //Retorna a view da home page
         $content = view::render('pages/home', [
-            'author' => 'Luã Álvaro',
+            'GITHUB_URL' => Infos::GitHub(),
         ]);
+        
+   
+   
 
         $title = 'Sostô';
 

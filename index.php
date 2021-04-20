@@ -2,7 +2,7 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-use \App\controller\pages\home;
+use \App\Controller\Pages\Home;
 
 // Renderização da aplicação
-echo home::getHome();
+echo home::GetHome();

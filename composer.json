@@ -1,5 +1,5 @@
 {
-  "name": "mvc/default",
+  "name": "vendor_name/sosto",
   "autoload": {
     "psr-4": {
       "App\\": "app/"
