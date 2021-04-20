@@ -1,6 +1,6 @@
 <?php
 
-namespace App\models\entity;
+namespace App\models;
 
 class Infos {
 

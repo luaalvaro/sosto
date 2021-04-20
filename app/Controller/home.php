@@ -1,9 +1,9 @@
 <?php
 
-namespace App\controller\pages;
+namespace App\controller;
 
 use \App\utils\view;
-use \App\models\entity\Infos;
+use \App\models\Infos;
 
 class home extends app{
 
@@ -14,9 +14,6 @@ class home extends app{
             'GITHUB_URL' => Infos::GitHub(),
         ]);
         
-   
-   
-
         $title = 'Sostô';
 
         //Retorna a view home page contida na view global app

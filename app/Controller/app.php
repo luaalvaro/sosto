@@ -1,8 +1,9 @@
 <?php
 
-namespace App\controller\pages;
+namespace App\controller;
 
 use \App\utils\view;
+use \App\models\Infos;
 
 class app {
     /* Responsável por retornar o conteúdo renderizado na app */
@@ -12,6 +13,8 @@ class app {
         return view::render('pages/app', [
             'content' => $content,
             'title' => $title,
+            //project_name deve ser o mesmo nome da pasta para poder linkar o css de forma correta...
+            'project_name' => 'sosto',
         ]);
     }
 }

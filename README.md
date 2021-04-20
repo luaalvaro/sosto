@@ -15,5 +15,9 @@ index.php //Autoload e chama a renderização do App
 app/utils/view.php //Método que pega o resource html e retorna o html modificado com as variáveis
 [app/resources] //Pasta com os arquivos estáticos, html, css, javascript
 
+Pre loads
+[x] - Tailwind css
+[x] - fontawsome
+
 // Após perceber a semelhança da arquitetura como um "mini framework" decidi criar o projeto como default para projetos futuros.
 Dessa forma consigo inicializar trabalhos de forma simples, para trabalhar com php nativo.
