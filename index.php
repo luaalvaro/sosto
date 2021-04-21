@@ -1,8 +1,8 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
+// Arquivo responsável pelo gerenciamento das rotas
+require './_settings/classes/router.php';
 
-use \App\Controller\Home;
+$page = isset($_GET['page']) ? $_GET['page'] : 'index';
 
-// Renderização da aplicação
-echo home::GetHome();
+echo Router::handleRouter($page);
